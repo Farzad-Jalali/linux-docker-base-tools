@@ -18,26 +18,31 @@ Features: AsynchDNS GSS-Negotiate IDN IPv6 Largefile NTLM NTLM_WB SSL libz
 
 
 
-# install Node.JS v12.x:
+# install Node.JS v12.x: ( Using Ubuntu )
 
 '
-# Using Ubuntu
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
-
-
-or if you are in bash already just:
-curl -sL https://deb.nodesource.com/setup_12.x
- apt-get install -y nodejs
- 
-
-# Using Debian, as root
-curl -sL https://deb.nodesource.com/setup_12.x | bash -
-apt-get install -y nodejs
 '
 
+or if you are in bash already just:
 
 
+'
+curl -sL https://deb.nodesource.com/setup_12.x
+apt-get install -y nodejs
+ '
+
+
+
+
+# to install git
+
+
+'
+apt-get update
+apt-get install git
+'
 
 
 
