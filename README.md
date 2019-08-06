@@ -4,13 +4,13 @@ You got a simple linux based docker (e.g. mongo or postgres) and you want to ins
 
 
 # install CURL
-'
+`
 apt-get update
 
  apt-get install curl
  
 curl --version
-'
+`
 
 A message that is similar to the following is displayed:
 
