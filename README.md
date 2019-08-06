@@ -4,10 +4,11 @@ You got a simple linux based docker (e.g. mongo or postgres) and you want to ins
 
 
 # install CURL
+
 `
 apt-get update
 
- apt-get install curl
+apt-get install curl
  
 curl --version
 `
@@ -37,6 +38,7 @@ or if you are in bash already just:
 curl -sL https://deb.nodesource.com/setup_12.x
 
 apt-get install -y nodejs
+
 `
 
 
